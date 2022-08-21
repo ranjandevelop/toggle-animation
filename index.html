@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Toggle Switch</title>
+</head>
+<body class="body">
+	<span id="switch"></span>
+</body>
+    <script>
+    	const toggle = document.querySelector('#switch');
+    	toggle.addEventListener('mouseover', ()=>{
+            document.querySelector('.body').style.background = '#223';
+    	});
+    	toggle.addEventListener('mouseout', ()=>{
+            document.querySelector('.body').style.background = '#eee';
+    	});
+    </script>
+</html>
+
+
+
+
+
+
